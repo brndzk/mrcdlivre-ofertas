@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm list:*)",
+      "Bash(vercel --name mercadopromo --yes --prod)",
+      "Bash(vercel --yes --prod --scope brndzks-projects)",
+      "Bash(vercel link:*)"
     ]
   }
 }
